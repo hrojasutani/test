@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-06-19T17:00:31.424Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="s4dsTE9UO-IecHwly-HW" version="20.0.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-06-19T17:04:59.839Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="au568jkcTvhIiFttz8cO" version="20.0.1" type="github" pages="2">
   <diagram id="IEkVFg-ntG0pZeEBUPk8" name="Page-1">
-    <mxGraphModel dx="1422" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="1">
+    <mxGraphModel dx="782" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="1">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -271,7 +271,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="OgyrWE9QW7U01_mNfkW-" name="Page-2">
-    <mxGraphModel dx="1422" dy="1923" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="782" dy="1637" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -290,8 +290,11 @@
         <mxCell id="U30fMHRPCKEvRSloWxJ2-10" value="NoPaciente" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFF99;" parent="1" vertex="1">
           <mxGeometry x="185" y="-200" width="120" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="wB2_XAwmj5xrgvN_S8IX-1" value="NoPaciente" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFF99;" vertex="1" parent="1">
+        <mxCell id="wB2_XAwmj5xrgvN_S8IX-1" value="NoPaciente" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFF99;" parent="1" vertex="1">
           <mxGeometry x="190" y="-150" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="f5J9ZHqMi35-_cvIny8Z-1" value="NoPaciente" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFF99;" vertex="1" parent="1">
+          <mxGeometry x="190" y="-100" width="120" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
