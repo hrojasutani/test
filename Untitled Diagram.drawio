@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-26T04:13:14.992Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="JhMzcnzchEk0GGM1XtVB" version="20.0.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-06-26T04:23:34.986Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="T8KpozS0kqdDlRFKCSB_" version="20.0.1" type="github" pages="2">
   <diagram id="OgyrWE9QW7U01_mNfkW-" name="Diagrama Funcional">
     <mxGraphModel dx="1422" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -336,6 +336,14 @@
             <Array as="points">
               <mxPoint x="360" y="-409" />
               <mxPoint x="360" y="-346" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9EHy9spX3DYVqAHEwM8p-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="k_henDzEmTzPx3Y-Ofke-34" target="7MqDWlDyah3As3ThQvoX-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="390" y="-406" />
+              <mxPoint x="390" y="-309" />
             </Array>
           </mxGeometry>
         </mxCell>
