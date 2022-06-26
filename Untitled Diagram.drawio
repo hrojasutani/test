@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-26T03:40:35.280Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="E0g62ZxM2qZxCMwc-p-Q" version="20.0.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-06-26T03:51:49.581Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="wl8vUFTGLa9wnAooxOwC" version="20.0.3" type="github" pages="2">
   <diagram id="OgyrWE9QW7U01_mNfkW-" name="Diagrama Funcional">
     <mxGraphModel dx="1422" dy="2001" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -369,6 +369,28 @@
         </mxCell>
         <mxCell id="sQkpUDEFEktW7a_w6Tpa-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="U30fMHRPCKEvRSloWxJ2-2" target="U30fMHRPCKEvRSloWxJ2-2">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sQkpUDEFEktW7a_w6Tpa-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="7MqDWlDyah3As3ThQvoX-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="-740" as="sourcePoint" />
+            <mxPoint x="160" y="-1120" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="50" y="-711" />
+              <mxPoint x="50" y="-920" />
+              <mxPoint x="50" y="-1120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sQkpUDEFEktW7a_w6Tpa-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7MqDWlDyah3As3ThQvoX-20" target="7MqDWlDyah3As3ThQvoX-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="-630" as="sourcePoint" />
+            <mxPoint x="440" y="-680" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="70" y="-710" />
+              <mxPoint x="70" y="-530" />
+              <mxPoint x="70" y="-310" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
