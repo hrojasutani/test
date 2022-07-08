@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="58611068-326F-2F06-5BA5-E0C9B90D1BDF" mainViewID="716A7138-F17A-1528-D596-F32DC02D8C92">
+<createdBy>HROJAS</createdBy>
+<createdTime>2022-07-08 00:06:21 UTC</createdTime>
+<ownerDesignName>DIAGRAMA_CLINICA</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

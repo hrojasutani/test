@@ -1,0 +1,42 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E029F637-6490-EA1F-9453-69BE82B6B337" name="ANALISIS">
+<createdBy>HROJAS</createdBy>
+<createdTime>2022-07-08 00:09:13 UTC</createdTime>
+<ownerDesignName>DIAGRAMA_CLINICA</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CoMedioAnalisis" id="A201789D-365B-3723-5BA5-86B2072C6613">
+<createdBy>HROJAS</createdBy>
+<createdTime>2022-07-08 00:18:07 UTC</createdTime>
+<ownerDesignName>DIAGRAMA_CLINICA</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NoMedioAnalisis" id="C852FE10-4EFC-F049-283B-6CE40965A7A3">
+<createdBy>HROJAS</createdBy>
+<createdTime>2022-07-08 00:18:07 UTC</createdTime>
+<ownerDesignName>DIAGRAMA_CLINICA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B47A9E5E-A164-1CA7-DC0E-AF74F926E27A" name="ANALISISv1_PK">
+<createdBy>HROJAS</createdBy>
+<createdTime>2022-07-08 00:27:51 UTC</createdTime>
+<ownerDesignName>DIAGRAMA_CLINICA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A201789D-365B-3723-5BA5-86B2072C6613"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

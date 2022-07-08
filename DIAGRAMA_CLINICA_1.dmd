@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="DIAGRAMA_CLINICA_1" id="0183E5AB-049C-0CAB-ECA7-62447B02A7A0" version="3.5">
+<createdBy>HROJAS</createdBy>
+<createdTime>2022-07-08 02:08:42 UTC</createdTime>
+<ownerDesignName>DIAGRAMA_CLINICA_1</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>0183E5AB-049C-0CAB-ECA7-62447B02A7A0</designId>
+</OSDM_Design>
