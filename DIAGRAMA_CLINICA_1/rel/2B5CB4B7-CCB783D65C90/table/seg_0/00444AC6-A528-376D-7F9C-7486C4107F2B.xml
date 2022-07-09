@@ -123,6 +123,20 @@
 <colAssociation fkAssociation="12846C53-4867-1FD5-79E8-400CBB1DBA64" referredColumn="3FFEC5D8-B3AE-1D9E-DB54-D8FC51668C5A"/>
 </associations>
 </Column>
+<Column name="CoParametro" id="1974D6C6-CF4A-4DF6-7EE2-658DF2AE2858">
+<createdBy>HROJAS</createdBy>
+<createdTime>2022-07-09 23:20:08 UTC</createdTime>
+<ownerDesignName>DIAGRAMA_CLINICA_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="92A934E2-C052-EF4A-E248-C3E3D43D19C5" referredColumn="30AEBABD-DC3B-12B2-5E09-AB7F2B69835C"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="92B2DBA4-B6E9-41E4-7DB4-5B21E0071E7B" name="PRUEBA_PK">
@@ -144,6 +158,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="E6C49AD0-5599-4FBB-7D40-B780AACB777F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="691A2E86-ECA5-6E84-93A5-A510891C99AB" name="PRUEBA_PARAMETROS_FK">
+<createdBy>HROJAS</createdBy>
+<createdTime>2022-07-09 23:20:08 UTC</createdTime>
+<ownerDesignName>DIAGRAMA_CLINICA_1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1974D6C6-CF4A-4DF6-7EE2-658DF2AE2858"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

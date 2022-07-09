@@ -29,6 +29,34 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="CoDoctor" id="10D9A9B4-52A5-C25C-4EC4-E1200BB192A4">
+<createdBy>HROJAS</createdBy>
+<createdTime>2022-07-09 23:21:15 UTC</createdTime>
+<ownerDesignName>DIAGRAMA_CLINICA_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="003DE52D-B467-027C-9823-8DFE0FA56AC2" referredColumn="38AF9266-E662-762E-BB9C-64F21C2C36A3"/>
+</associations>
+</Column>
+<Column name="CoPaciente" id="73656788-1108-D894-BD83-C73CE0450A9A">
+<createdBy>HROJAS</createdBy>
+<createdTime>2022-07-09 23:22:39 UTC</createdTime>
+<ownerDesignName>DIAGRAMA_CLINICA_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3A36A245-720D-24AF-1EF8-40F09429F971" referredColumn="3FFEC5D8-B3AE-1D9E-DB54-D8FC51668C5A"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="B47A9E5E-A164-1CA7-DC0E-AF74F926E27A" name="ANALISISv1_PK">
@@ -40,6 +68,26 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="A201789D-365B-3723-5BA5-86B2072C6613"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EC80F7AC-65AD-32A4-238F-1550FEEA19A3" name="ANALISIS_DOCTOR_FK">
+<createdBy>HROJAS</createdBy>
+<createdTime>2022-07-09 23:21:15 UTC</createdTime>
+<ownerDesignName>DIAGRAMA_CLINICA_1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="10D9A9B4-52A5-C25C-4EC4-E1200BB192A4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BB786912-68E1-06F1-D999-807E0D24E104" name="ANALISIS_PASIENTE_FK">
+<createdBy>HROJAS</createdBy>
+<createdTime>2022-07-09 23:22:39 UTC</createdTime>
+<ownerDesignName>DIAGRAMA_CLINICA_1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="73656788-1108-D894-BD83-C73CE0450A9A"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

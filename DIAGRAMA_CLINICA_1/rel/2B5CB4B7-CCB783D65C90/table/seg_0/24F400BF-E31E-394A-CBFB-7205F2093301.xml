@@ -2,7 +2,7 @@
 <Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="24F400BF-E31E-394A-CBFB-7205F2093301" name="PERFIL">
 <createdBy>HROJAS</createdBy>
 <createdTime>2022-07-08 00:07:15 UTC</createdTime>
-<ownerDesignName>DIAGRAMA_CLINICA</ownerDesignName>
+<ownerDesignName>DIAGRAMA_CLINICA_1</ownerDesignName>
 <ordsAlias>table_3</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
@@ -11,7 +11,7 @@
 <Column name="CoPerfil" id="E3C60F70-5C84-FAAE-85BA-056E26EB05D7">
 <createdBy>HROJAS</createdBy>
 <createdTime>2022-07-08 00:23:23 UTC</createdTime>
-<ownerDesignName>DIAGRAMA_CLINICA</ownerDesignName>
+<ownerDesignName>DIAGRAMA_CLINICA_1</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -21,7 +21,7 @@
 <Column name="NoPerfil" id="2F13321F-ADB0-267A-43B5-3B60A84342F2">
 <createdBy>HROJAS</createdBy>
 <createdTime>2022-07-08 00:23:23 UTC</createdTime>
-<ownerDesignName>DIAGRAMA_CLINICA</ownerDesignName>
+<ownerDesignName>DIAGRAMA_CLINICA_1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -33,7 +33,7 @@
 <Column name="NoFamiliaAnalisis" id="C279800B-F7E7-A3A5-C240-39DD7A4C35FD">
 <createdBy>HROJAS</createdBy>
 <createdTime>2022-07-08 00:23:23 UTC</createdTime>
-<ownerDesignName>DIAGRAMA_CLINICA</ownerDesignName>
+<ownerDesignName>DIAGRAMA_CLINICA_1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -42,17 +42,41 @@
 <ownDataTypeParameters>100,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="CoPaciente" id="C86F3562-02B6-381D-A3DD-6949B4C8D24E">
+<createdBy>HROJAS</createdBy>
+<createdTime>2022-07-09 23:18:10 UTC</createdTime>
+<ownerDesignName>DIAGRAMA_CLINICA_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="45CAF0AC-6734-6E54-F637-EBE8432166FB" referredColumn="3FFEC5D8-B3AE-1D9E-DB54-D8FC51668C5A"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="4F62EEFF-66A3-6128-D701-F226B82808DD" name="PERFIL_PK">
 <createdBy>HROJAS</createdBy>
 <createdTime>2022-07-08 00:28:12 UTC</createdTime>
-<ownerDesignName>DIAGRAMA_CLINICA</ownerDesignName>
+<ownerDesignName>DIAGRAMA_CLINICA_1</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="E3C60F70-5C84-FAAE-85BA-056E26EB05D7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="91D38040-4FBB-8F39-4A90-5A87A0DCDC78" name="PERFIL_PASIENTE_FK">
+<createdBy>HROJAS</createdBy>
+<createdTime>2022-07-09 23:18:10 UTC</createdTime>
+<ownerDesignName>DIAGRAMA_CLINICA_1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C86F3562-02B6-381D-A3DD-6949B4C8D24E"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
