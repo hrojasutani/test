@@ -2,7 +2,7 @@
 <Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="00444AC6-A528-376D-7F9C-7486C4107F2B" name="PRUEBA">
 <createdBy>HROJAS</createdBy>
 <createdTime>2022-07-08 00:08:25 UTC</createdTime>
-<ownerDesignName>DIAGRAMA_CLINICA</ownerDesignName>
+<ownerDesignName>DIAGRAMA_CLINICA_1</ownerDesignName>
 <ordsAlias>table_5</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
@@ -11,7 +11,7 @@
 <Column name="CoPrueba" id="02A7DE25-B65D-065B-78D1-F1D3E5DB643D">
 <createdBy>HROJAS</createdBy>
 <createdTime>2022-07-08 00:24:48 UTC</createdTime>
-<ownerDesignName>DIAGRAMA_CLINICA</ownerDesignName>
+<ownerDesignName>DIAGRAMA_CLINICA_1</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -21,7 +21,7 @@
 <Column name="TxResultadoPrueba" id="E5A6BF82-EB57-ED01-25CD-5C14C0A75AF0">
 <createdBy>HROJAS</createdBy>
 <createdTime>2022-07-08 00:24:48 UTC</createdTime>
-<ownerDesignName>DIAGRAMA_CLINICA</ownerDesignName>
+<ownerDesignName>DIAGRAMA_CLINICA_1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -33,7 +33,7 @@
 <Column name="NuValorMaximo" id="549B46B3-F441-A2A2-1CA0-46DC6E6C804A">
 <createdBy>HROJAS</createdBy>
 <createdTime>2022-07-08 00:24:48 UTC</createdTime>
-<ownerDesignName>DIAGRAMA_CLINICA</ownerDesignName>
+<ownerDesignName>DIAGRAMA_CLINICA_1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -44,7 +44,7 @@
 <Column name="NuValorMinimo" id="5C28D538-9924-4509-3246-4B813E94485F">
 <createdBy>HROJAS</createdBy>
 <createdTime>2022-07-08 00:24:48 UTC</createdTime>
-<ownerDesignName>DIAGRAMA_CLINICA</ownerDesignName>
+<ownerDesignName>DIAGRAMA_CLINICA_1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -55,7 +55,7 @@
 <Column name="TxDescProcedimiento" id="607D51F7-6232-8C69-D22E-A637620EBCFD">
 <createdBy>HROJAS</createdBy>
 <createdTime>2022-07-08 00:24:48 UTC</createdTime>
-<ownerDesignName>DIAGRAMA_CLINICA</ownerDesignName>
+<ownerDesignName>DIAGRAMA_CLINICA_1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -67,7 +67,7 @@
 <Column name="TxComentarios" id="782C18A1-4599-3E77-4B4F-CA330AD90972">
 <createdBy>HROJAS</createdBy>
 <createdTime>2022-07-08 00:24:48 UTC</createdTime>
-<ownerDesignName>DIAGRAMA_CLINICA</ownerDesignName>
+<ownerDesignName>DIAGRAMA_CLINICA_1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -79,7 +79,7 @@
 <Column name="SsPrecio" id="87CAD2B8-010A-AD75-D56C-DA684F0E6514">
 <createdBy>HROJAS</createdBy>
 <createdTime>2022-07-08 00:24:48 UTC</createdTime>
-<ownerDesignName>DIAGRAMA_CLINICA</ownerDesignName>
+<ownerDesignName>DIAGRAMA_CLINICA_1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -90,7 +90,7 @@
 <Column name="QtReactivos" id="61F3C7F6-CF8D-F0FA-EB6B-5C940EE3C595">
 <createdBy>HROJAS</createdBy>
 <createdTime>2022-07-08 00:24:48 UTC</createdTime>
-<ownerDesignName>DIAGRAMA_CLINICA</ownerDesignName>
+<ownerDesignName>DIAGRAMA_CLINICA_1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -101,7 +101,7 @@
 <Column name="QtUnidadMedida" id="B18B7942-6D43-ED30-8FC5-212F571377AD">
 <createdBy>HROJAS</createdBy>
 <createdTime>2022-07-08 00:25:14 UTC</createdTime>
-<ownerDesignName>DIAGRAMA_CLINICA</ownerDesignName>
+<ownerDesignName>DIAGRAMA_CLINICA_1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -109,17 +109,41 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="CoPaciente" id="E6C49AD0-5599-4FBB-7D40-B780AACB777F">
+<createdBy>HROJAS</createdBy>
+<createdTime>2022-07-08 20:40:45 UTC</createdTime>
+<ownerDesignName>DIAGRAMA_CLINICA_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="12846C53-4867-1FD5-79E8-400CBB1DBA64" referredColumn="3FFEC5D8-B3AE-1D9E-DB54-D8FC51668C5A"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="92B2DBA4-B6E9-41E4-7DB4-5B21E0071E7B" name="PRUEBA_PK">
 <createdBy>HROJAS</createdBy>
 <createdTime>2022-07-08 00:36:13 UTC</createdTime>
-<ownerDesignName>DIAGRAMA_CLINICA</ownerDesignName>
+<ownerDesignName>DIAGRAMA_CLINICA_1</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="02A7DE25-B65D-065B-78D1-F1D3E5DB643D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="338D4175-6999-7F41-4F6B-B1AB9FA881CC" name="PRUEBA_PASIENTE_FK">
+<createdBy>HROJAS</createdBy>
+<createdTime>2022-07-08 20:40:45 UTC</createdTime>
+<ownerDesignName>DIAGRAMA_CLINICA_1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E6C49AD0-5599-4FBB-7D40-B780AACB777F"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

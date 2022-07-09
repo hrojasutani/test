@@ -2,7 +2,7 @@
 <Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FF818794-1FFE-87F6-B7BD-896F13DEFE20" name="PARAMETROS">
 <createdBy>HROJAS</createdBy>
 <createdTime>2022-07-08 00:07:25 UTC</createdTime>
-<ownerDesignName>DIAGRAMA_CLINICA</ownerDesignName>
+<ownerDesignName>DIAGRAMA_CLINICA_1</ownerDesignName>
 <ordsAlias>table_4</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
@@ -11,27 +11,35 @@
 <Column name="CoParametro" id="30AEBABD-DC3B-12B2-5E09-AB7F2B69835C">
 <createdBy>HROJAS</createdBy>
 <createdTime>2022-07-08 00:13:09 UTC</createdTime>
-<ownerDesignName>DIAGRAMA_CLINICA</ownerDesignName>
-<use>0</use>
+<ownerDesignName>DIAGRAMA_CLINICA_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="NoParametro" id="65D1144C-3537-9732-A2A4-56898EC5C16C">
 <createdBy>HROJAS</createdBy>
 <createdTime>2022-07-08 00:13:09 UTC</createdTime>
-<ownerDesignName>DIAGRAMA_CLINICA</ownerDesignName>
+<ownerDesignName>DIAGRAMA_CLINICA_1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="TxObjetivoParametro" id="0D5912C5-BF19-401E-596E-5AAA864EE5C0">
 <createdBy>HROJAS</createdBy>
 <createdTime>2022-07-08 00:13:09 UTC</createdTime>
-<ownerDesignName>DIAGRAMA_CLINICA</ownerDesignName>
+<ownerDesignName>DIAGRAMA_CLINICA_1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
@@ -39,7 +47,7 @@
 <ind_PK_UK id="657FC1F3-D36C-7D28-81AF-39EC61FB886E" name="PARAMETROS_PK">
 <createdBy>HROJAS</createdBy>
 <createdTime>2022-07-08 00:13:09 UTC</createdTime>
-<ownerDesignName>DIAGRAMA_CLINICA</ownerDesignName>
+<ownerDesignName>DIAGRAMA_CLINICA_1</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
@@ -50,7 +58,7 @@
 <ind_PK_UK id="48D383A4-9739-C858-257C-2079B1DA7F8F" name="CoParametro">
 <createdBy>HROJAS</createdBy>
 <createdTime>2022-07-08 00:13:09 UTC</createdTime>
-<ownerDesignName>DIAGRAMA_CLINICA</ownerDesignName>
+<ownerDesignName>DIAGRAMA_CLINICA_1</ownerDesignName>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="30AEBABD-DC3B-12B2-5E09-AB7F2B69835C"/>
