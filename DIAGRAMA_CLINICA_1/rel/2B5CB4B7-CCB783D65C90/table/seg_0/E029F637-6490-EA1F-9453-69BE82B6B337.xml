@@ -43,9 +43,9 @@
 <colAssociation fkAssociation="003DE52D-B467-027C-9823-8DFE0FA56AC2" referredColumn="38AF9266-E662-762E-BB9C-64F21C2C36A3"/>
 </associations>
 </Column>
-<Column name="CoPaciente" id="73656788-1108-D894-BD83-C73CE0450A9A">
+<Column name="CoPrueba" id="93E64BFB-E25A-447A-87DB-469423F2163A">
 <createdBy>HROJAS</createdBy>
-<createdTime>2022-07-09 23:22:39 UTC</createdTime>
+<createdTime>2022-07-09 23:32:36 UTC</createdTime>
 <ownerDesignName>DIAGRAMA_CLINICA_1</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -54,7 +54,7 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="3A36A245-720D-24AF-1EF8-40F09429F971" referredColumn="3FFEC5D8-B3AE-1D9E-DB54-D8FC51668C5A"/>
+<colAssociation fkAssociation="392FA0DC-7390-02E4-1375-2044C4F5232B" referredColumn="02A7DE25-B65D-065B-78D1-F1D3E5DB643D"/>
 </associations>
 </Column>
 </columns>
@@ -80,14 +80,14 @@
 <colUsage columnID="10D9A9B4-52A5-C25C-4EC4-E1200BB192A4"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="BB786912-68E1-06F1-D999-807E0D24E104" name="ANALISIS_PASIENTE_FK">
+<ind_PK_UK id="211CDF5A-70C5-78CC-9CAB-5381F6DFAEAF" name="ANALISIS_PRUEBA_FK">
 <createdBy>HROJAS</createdBy>
-<createdTime>2022-07-09 23:22:39 UTC</createdTime>
+<createdTime>2022-07-09 23:32:36 UTC</createdTime>
 <ownerDesignName>DIAGRAMA_CLINICA_1</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="73656788-1108-D894-BD83-C73CE0450A9A"/>
+<colUsage columnID="93E64BFB-E25A-447A-87DB-469423F2163A"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
