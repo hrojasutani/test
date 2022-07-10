@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="685C1181-5611-E377-9C6C-6011AE809DA0" name="PACIENTE">
+<createdBy>HROJAS</createdBy>
+<createdTime>2022-07-10 00:26:49 UTC</createdTime>
+<generatorID>783CB86F-A827-F40A-3344-A935CF84F5DA</generatorID>
+<ownerDesignName>DIAGRAMA_CLINICA_1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CoPaciente" id="D37659B6-15D5-3B94-546B-1C8DE675F58C">
+<createdBy>HROJAS</createdBy>
+<createdTime>2022-07-10 00:26:49 UTC</createdTime>
+<generatorID>111DF55A-390D-717D-606F-0D37DBEDA3FF</generatorID>
+<ownerDesignName>DIAGRAMA_CLINICA_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NoPaciente" id="8145ABBB-F750-CF98-984D-DC33CC43D2B6">
+<createdBy>HROJAS</createdBy>
+<createdTime>2022-07-10 00:26:49 UTC</createdTime>
+<generatorID>23236A57-F9AE-20EA-0126-44CAAA308EBE</generatorID>
+<ownerDesignName>DIAGRAMA_CLINICA_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FlSexoPac" id="8C77477F-0146-906D-A7A2-CBAA92D4FA47">
+<createdBy>HROJAS</createdBy>
+<createdTime>2022-07-10 00:26:49 UTC</createdTime>
+<generatorID>EE53F84C-E8C3-1170-462A-616500F55EE2</generatorID>
+<ownerDesignName>DIAGRAMA_CLINICA_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NuDNI" id="0C84E134-DE05-D084-3AA3-BD4D2EBD4E44">
+<createdBy>HROJAS</createdBy>
+<createdTime>2022-07-10 00:26:49 UTC</createdTime>
+<generatorID>6C7C3C35-024F-1916-71E0-22F32DCE517A</generatorID>
+<ownerDesignName>DIAGRAMA_CLINICA_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FeNacimientoPac" id="74AD47E8-1C33-2E70-5FA4-3861BEE82E5E">
+<createdBy>HROJAS</createdBy>
+<createdTime>2022-07-10 00:26:49 UTC</createdTime>
+<generatorID>8C3024DA-D79C-64C2-C911-8BCFEB805D2D</generatorID>
+<ownerDesignName>DIAGRAMA_CLINICA_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TxCorreoPac" id="46E380D4-AD10-F136-92CD-4DCCF51A36AC">
+<createdBy>HROJAS</createdBy>
+<createdTime>2022-07-10 00:26:49 UTC</createdTime>
+<generatorID>85E11DC8-7D23-076C-C552-49C16265F324</generatorID>
+<ownerDesignName>DIAGRAMA_CLINICA_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TxDirecciónPac" id="E3517890-3488-FCA3-E4A9-1E5DC78AD4AA">
+<createdBy>HROJAS</createdBy>
+<createdTime>2022-07-10 00:26:49 UTC</createdTime>
+<generatorID>D3658588-DA6E-1504-E8FC-7ED803A36143</generatorID>
+<ownerDesignName>DIAGRAMA_CLINICA_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3C8A5872-C2D7-AA85-5F05-4F99251A05D5" name="PACIENTE_PK">
+<createdBy>HROJAS</createdBy>
+<createdTime>2022-07-10 00:26:49 UTC</createdTime>
+<generatorID>F793570E-C17C-8A30-6182-90D75A08A563</generatorID>
+<ownerDesignName>DIAGRAMA_CLINICA_1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D37659B6-15D5-3B94-546B-1C8DE675F58C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1417EE70-1033-5C2F-B1CA-E4236C5EC4FF" containerWithKeyObject="A4D261F2-A46A-814B-2F51-2F5B09A493C6" localFKIndex="E8101B27-3EFD-F65D-DEA8-79AC2A4228DF" name="ANALISIS_PRUEBA_FK_PRUEBA_FK">
+<createdBy>HROJAS</createdBy>
+<createdTime>2022-07-10 00:03:48 UTC</createdTime>
+<generatorID>E3E5B570-B8BB-FD5E-F35A-65ECD21EC344</generatorID>
+<ownerDesignName>DIAGRAMA_CLINICA_1</ownerDesignName>
+<referredTableLongName>PRUEBA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>00444AC6-A528-376D-7F9C-7486C4107F2B</referredTableID>
+<keyObject>92B2DBA4-B6E9-41E4-7DB4-5B21E0071E7B</keyObject>
+<referredKeyID>92B2DBA4-B6E9-41E4-7DB4-5B21E0071E7B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CoPrueba</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

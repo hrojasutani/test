@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0610EFE9-206B-1CB3-2A66-94C514FA3A4C" name="FAMILIA ANALISIS">
+<createdBy>HROJAS</createdBy>
+<createdTime>2022-07-09 23:57:58 UTC</createdTime>
+<generatorID>F5E766A7-A641-A913-314B-A5F37F5C0512</generatorID>
+<ownerDesignName>DIAGRAMA_CLINICA_1</ownerDesignName>
+<engineerTo>
+<item key="2B5CB4B7-9E2D-6556-D7B0-CCB783D65C90" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CoFamiliaAnalisis" id="8B02BD22-C346-4B54-DC4E-333EA81984A3">
+<createdBy>HROJAS</createdBy>
+<createdTime>2022-07-09 23:57:58 UTC</createdTime>
+<generatorID>A9C451F0-8B49-2FD1-A3AA-B2EA5F777393</generatorID>
+<ownerDesignName>DIAGRAMA_CLINICA_1</ownerDesignName>
+<engineerTo>
+<item key="2B5CB4B7-9E2D-6556-D7B0-CCB783D65C90" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NoFamiliaAnalisis" id="85010F93-DD0E-1900-8342-B6BCD0E4BA6C">
+<createdBy>HROJAS</createdBy>
+<createdTime>2022-07-09 23:57:58 UTC</createdTime>
+<generatorID>6882DFC8-55B7-2E1D-9B7B-6750CEC4505A</generatorID>
+<ownerDesignName>DIAGRAMA_CLINICA_1</ownerDesignName>
+<engineerTo>
+<item key="2B5CB4B7-9E2D-6556-D7B0-CCB783D65C90" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>254</dataTypeSize>
+<ownDataTypeParameters>254,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CoPerfil" id="6BFA350A-84B7-A1CC-7AE7-3439B5CAE2B0">
+<createdBy>HROJAS</createdBy>
+<createdTime>2022-07-10 00:02:22 UTC</createdTime>
+<generatorID>C66FA9DF-D8D2-B9E1-FB33-59D6EB08C574</generatorID>
+<ownerDesignName>DIAGRAMA_CLINICA_1</ownerDesignName>
+<engineerTo>
+<item key="2B5CB4B7-9E2D-6556-D7B0-CCB783D65C90" value="true"/>
+</engineerTo>
+<referedAttribute>4B1FC12C-5158-C54E-9F9D-E399B44E93E2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CoMedioAnalisis" id="B3D8FBAB-0C2D-D886-50C0-4F7234D92146">
+<createdBy>HROJAS</createdBy>
+<createdTime>2022-07-10 00:27:15 UTC</createdTime>
+<generatorID>DC9D9896-68C5-25CB-955F-E65B55A153FB</generatorID>
+<ownerDesignName>DIAGRAMA_CLINICA_1</ownerDesignName>
+<engineerTo>
+<item key="2B5CB4B7-9E2D-6556-D7B0-CCB783D65C90" value="true"/>
+</engineerTo>
+<referedAttribute>3B7743F6-10B8-2E35-2587-CE53342E2668</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2ABB6703-F5B9-418D-53D6-CD4CB66F1EA7" name="FAMILIA ANALISIS PK">
+<createdBy>HROJAS</createdBy>
+<createdTime>2022-07-09 23:57:58 UTC</createdTime>
+<generatorID>EB340EDC-F7F6-7232-CEA9-491F9391D937</generatorID>
+<ownerDesignName>DIAGRAMA_CLINICA_1</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="2B5CB4B7-9E2D-6556-D7B0-CCB783D65C90" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8B02BD22-C346-4B54-DC4E-333EA81984A3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

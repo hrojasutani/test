@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ANALISIS_DOCTOR_FK" directorySegmentName="seg_0" id="9362B8D6-D4A2-ADB3-0236-EC6548E733F0">
+<createdBy>HROJAS</createdBy>
+<createdTime>2022-07-09 23:57:58 UTC</createdTime>
+<generatorID>003DE52D-B467-027C-9823-8DFE0FA56AC2</generatorID>
+<ownerDesignName>DIAGRAMA_CLINICA_1</ownerDesignName>
+<engineerTo>
+<item key="2B5CB4B7-9E2D-6556-D7B0-CCB783D65C90" value="true"/>
+</engineerTo>
+<sourcePk>4D1FFC02-2431-31FD-7E44-0FB530CC7DC1</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>AC0A0A42-B0A4-3592-1DDE-8E54C462B486</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>42C89CB5-0C1A-A9C3-EFD8-2A88E18E8A4D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

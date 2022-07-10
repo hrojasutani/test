@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8FEB9BA0-66CD-D8ED-9A40-E399CA4E045A" name="ANALISIS_FAMILIA_ANALISIS_FK">
+<createdBy>HROJAS</createdBy>
+<createdTime>2022-07-10 00:03:48 UTC</createdTime>
+<ownerDesignName>DIAGRAMA_CLINICA_1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="FAMILIA_ANALISIS_CoFamiliaAnalisis" id="0FF65261-85ED-8E88-9FCF-3A11B7CB5FFB">
+<createdBy>HROJAS</createdBy>
+<createdTime>2022-07-10 00:03:48 UTC</createdTime>
+<ownerDesignName>DIAGRAMA_CLINICA_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="94054E21-9C3C-8F2A-B320-A4EC61E72533" referredColumn="A9C451F0-8B49-2FD1-A3AA-B2EA5F777393"/>
+</associations>
+</Column>
+<Column name="ANALISIS_CoMedioAnalisis" id="8415DE3B-DE6F-DC45-F340-BF8F015B0763">
+<createdBy>HROJAS</createdBy>
+<createdTime>2022-07-10 00:03:48 UTC</createdTime>
+<ownerDesignName>DIAGRAMA_CLINICA_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0CA743B7-8FC6-5F35-BE9C-F4184EAA5515" referredColumn="A201789D-365B-3723-5BA5-86B2072C6613"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7E48C119-0E56-1A5E-C564-4A11660617FD" name="ANALISIS_FAMILIA_ANALISIS_FK_PK">
+<createdBy>HROJAS</createdBy>
+<createdTime>2022-07-10 00:03:48 UTC</createdTime>
+<ownerDesignName>DIAGRAMA_CLINICA_1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0FF65261-85ED-8E88-9FCF-3A11B7CB5FFB"/>
+<colUsage columnID="8415DE3B-DE6F-DC45-F340-BF8F015B0763"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="956CCC8D-7526-57F8-B3E3-C9E81A7E188F" name="ANALISIS_FAMILIA_ANALISIS_FK_FAMILIA_ANALISIS_FK">
+<createdBy>HROJAS</createdBy>
+<createdTime>2022-07-10 00:03:48 UTC</createdTime>
+<generatorID>F47C8F49-8B6F-C958-A828-2C915AD71F5B</generatorID>
+<ownerDesignName>DIAGRAMA_CLINICA_1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0FF65261-85ED-8E88-9FCF-3A11B7CB5FFB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="712B0CFB-00EA-FC72-43DE-0702FD89D038" name="ANALISIS_FAMILIA_ANALISIS_FK_ANALISIS_FK">
+<createdBy>HROJAS</createdBy>
+<createdTime>2022-07-10 00:03:48 UTC</createdTime>
+<generatorID>F47C8F49-8B6F-C958-A828-2C915AD71F5B</generatorID>
+<ownerDesignName>DIAGRAMA_CLINICA_1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8415DE3B-DE6F-DC45-F340-BF8F015B0763"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="RelPerfilFamilia" directorySegmentName="seg_0" id="C66FA9DF-D8D2-B9E1-FB33-59D6EB08C574">
+<createdBy>HROJAS</createdBy>
+<createdTime>2022-07-10 00:02:22 UTC</createdTime>
+<ownerDesignName>DIAGRAMA_CLINICA_1</ownerDesignName>
+<engineerTo>
+<item key="2B5CB4B7-9E2D-6556-D7B0-CCB783D65C90" value="true"/>
+</engineerTo>
+<sourcePk>B3D337F3-5EAE-8AD6-F841-7681360E3413</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8A8AD3A0-C4BB-3CA3-0739-0BEF1F99FCB3</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0610EFE9-206B-1CB3-2A66-94C514FA3A4C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

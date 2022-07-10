@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5A489FE2-0001-033F-A702-5F67E61DD2CA" name="PERFIL">
+<createdBy>HROJAS</createdBy>
+<createdTime>2022-07-10 00:30:29 UTC</createdTime>
+<generatorID>8A8AD3A0-C4BB-3CA3-0739-0BEF1F99FCB3</generatorID>
+<ownerDesignName>DIAGRAMA_CLINICA_1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CoPerfil" id="9DDA6E5D-9640-D960-8DA9-D7A71E661698">
+<createdBy>HROJAS</createdBy>
+<createdTime>2022-07-10 00:30:29 UTC</createdTime>
+<generatorID>4B1FC12C-5158-C54E-9F9D-E399B44E93E2</generatorID>
+<ownerDesignName>DIAGRAMA_CLINICA_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NoPerfil" id="570BDD68-2C7C-2ED4-5677-4BE005886C36">
+<createdBy>HROJAS</createdBy>
+<createdTime>2022-07-10 00:30:29 UTC</createdTime>
+<generatorID>F7B9DC26-CE54-B53E-3D3D-13AF3C3DDE48</generatorID>
+<ownerDesignName>DIAGRAMA_CLINICA_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NoFamiliaAnalisis" id="9025BB53-5CDF-E5DF-897B-AFB4C54956F2">
+<createdBy>HROJAS</createdBy>
+<createdTime>2022-07-10 00:30:29 UTC</createdTime>
+<generatorID>4E95B86D-49ED-4DEC-C604-0EA229BFAA9E</generatorID>
+<ownerDesignName>DIAGRAMA_CLINICA_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F79F2B4E-6FB1-A902-01EB-5B103AFEC363" name="PERFIL_PK">
+<createdBy>HROJAS</createdBy>
+<createdTime>2022-07-10 00:30:29 UTC</createdTime>
+<generatorID>B3D337F3-5EAE-8AD6-F841-7681360E3413</generatorID>
+<ownerDesignName>DIAGRAMA_CLINICA_1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9DDA6E5D-9640-D960-8DA9-D7A71E661698"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

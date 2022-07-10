@@ -3,13 +3,13 @@
 <createdBy>HROJAS</createdBy>
 <createdTime>2022-07-09 23:21:15 UTC</createdTime>
 <ownerDesignName>DIAGRAMA_CLINICA_1</ownerDesignName>
-<referredTableLongName>DOCTOR</referredTableLongName>
+<referredTableLongName>DOCTORv1</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>230E9A89-7578-4DB1-1588-7D350EF7D0CC</referredTableID>
 <keyObject>DCAF1F71-1F7D-9037-4715-7D304C3AC017</keyObject>
 <referredKeyID>DCAF1F71-1F7D-9037-4715-7D304C3AC017</referredKeyID>
 <mandatory>true</mandatory>
-<refColNames>CoDoctor</refColNames>
+<refColNames>CoDoctor2</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>
 <columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>

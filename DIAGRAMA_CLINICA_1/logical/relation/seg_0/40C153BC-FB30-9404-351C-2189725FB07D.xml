@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ORDEN_ATENCION_PASIENTE_FK" directorySegmentName="seg_0" id="40C153BC-FB30-9404-351C-2189725FB07D">
+<createdBy>HROJAS</createdBy>
+<createdTime>2022-07-09 23:57:58 UTC</createdTime>
+<generatorID>3982A113-B3E2-9B74-3A59-3837874C21AD</generatorID>
+<ownerDesignName>DIAGRAMA_CLINICA_1</ownerDesignName>
+<engineerTo>
+<item key="2B5CB4B7-9E2D-6556-D7B0-CCB783D65C90" value="true"/>
+</engineerTo>
+<sourcePk>F793570E-C17C-8A30-6182-90D75A08A563</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>783CB86F-A827-F40A-3344-A935CF84F5DA</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E617974D-A69A-B712-8564-CFCCDC60593E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

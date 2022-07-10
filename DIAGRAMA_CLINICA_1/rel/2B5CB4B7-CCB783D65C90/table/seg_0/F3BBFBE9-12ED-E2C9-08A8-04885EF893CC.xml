@@ -1,8 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F3BBFBE9-12ED-E2C9-08A8-04885EF893CC" name="ORDEN_ATENCION">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F3BBFBE9-12ED-E2C9-08A8-04885EF893CC" name="ORDEN_ATENCIONv2">
 <createdBy>HROJAS</createdBy>
 <createdTime>2022-07-08 00:20:53 UTC</createdTime>
-<ownerDesignName>DIAGRAMA_CLINICA</ownerDesignName>
+<ownerDesignName>DIAGRAMA_CLINICA_1</ownerDesignName>
 <ordsAlias>table_8</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
@@ -11,7 +11,7 @@
 <Column name="CoOrdenAtencion" id="F4492C7B-EBEF-1388-93F5-E51D71182942">
 <createdBy>HROJAS</createdBy>
 <createdTime>2022-07-08 00:22:14 UTC</createdTime>
-<ownerDesignName>DIAGRAMA_CLINICA</ownerDesignName>
+<ownerDesignName>DIAGRAMA_CLINICA_1</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -21,7 +21,7 @@
 <Column name="NuTurno" id="1156A0E6-45A1-DC87-D49B-4DD99F727B67">
 <createdBy>HROJAS</createdBy>
 <createdTime>2022-07-08 00:22:14 UTC</createdTime>
-<ownerDesignName>DIAGRAMA_CLINICA</ownerDesignName>
+<ownerDesignName>DIAGRAMA_CLINICA_1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -32,7 +32,7 @@
 <Column name="FeTurno" id="291F2AF6-5784-1ABC-4A7E-92D56E331CEF">
 <createdBy>HROJAS</createdBy>
 <createdTime>2022-07-08 00:22:14 UTC</createdTime>
-<ownerDesignName>DIAGRAMA_CLINICA</ownerDesignName>
+<ownerDesignName>DIAGRAMA_CLINICA_1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -40,10 +40,11 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="CoPaciente" id="A0CB416B-5E8B-316F-DFAF-8B13A9E65E84">
+<Column name="PACIENTEv2_CoPaciente" id="30226BF3-87DD-3DFA-B249-6AE905774520">
 <createdBy>HROJAS</createdBy>
-<createdTime>2022-07-08 01:36:32 UTC</createdTime>
-<ownerDesignName>DIAGRAMA_CLINICA</ownerDesignName>
+<createdTime>2022-07-10 00:27:42 UTC</createdTime>
+<generatorID>700B9BB9-46A3-58D5-9BB2-8A6B95153C65</generatorID>
+<ownerDesignName>DIAGRAMA_CLINICA_1</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -51,15 +52,16 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="3982A113-B3E2-9B74-3A59-3837874C21AD" referredColumn="3FFEC5D8-B3AE-1D9E-DB54-D8FC51668C5A"/>
+<colAssociation fkAssociation="F582B423-F4E7-446A-D716-4961CA92381F" referredColumn="D37659B6-15D5-3B94-546B-1C8DE675F58C"/>
+<colAssociation fkAssociation="BD9DA338-747E-0269-158C-70DAB58A602F" referredColumn="3FFEC5D8-B3AE-1D9E-DB54-D8FC51668C5A"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="9DA1A664-BA75-E6C5-D66B-739A31604639" name="ORDEN_ATENCION_PK">
+<ind_PK_UK id="9DA1A664-BA75-E6C5-D66B-739A31604639" name="ORDEN_ATENCION_PKv2">
 <createdBy>HROJAS</createdBy>
 <createdTime>2022-07-08 00:39:28 UTC</createdTime>
-<ownerDesignName>DIAGRAMA_CLINICA</ownerDesignName>
+<ownerDesignName>DIAGRAMA_CLINICA_1</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
@@ -67,14 +69,26 @@
 <colUsage columnID="F4492C7B-EBEF-1388-93F5-E51D71182942"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="0C73004E-F8F1-8F5C-8D4E-7F785E004E9A" name="ORDEN_ATENCION_PASIENTE_FK">
+<ind_PK_UK id="5DE5A39B-C082-7B12-3BE2-A93468C1DDAB" name="ORDEN_ATENCIONv2_PACIENTE_FK">
 <createdBy>HROJAS</createdBy>
-<createdTime>2022-07-08 01:36:32 UTC</createdTime>
-<ownerDesignName>DIAGRAMA_CLINICA</ownerDesignName>
+<createdTime>2022-07-10 00:27:42 UTC</createdTime>
+<generatorID>40C153BC-FB30-9404-351C-2189725FB07D</generatorID>
+<ownerDesignName>DIAGRAMA_CLINICA_1</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="A0CB416B-5E8B-316F-DFAF-8B13A9E65E84"/>
+<colUsage columnID="30226BF3-87DD-3DFA-B249-6AE905774520"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="313768B8-D3BB-272D-D75F-4E69E1959F39" name="ORDEN_ATENCIONv2_PACIENTEv2_FK">
+<createdBy>HROJAS</createdBy>
+<createdTime>2022-07-10 00:27:42 UTC</createdTime>
+<generatorID>40C153BC-FB30-9404-351C-2189725FB07D</generatorID>
+<ownerDesignName>DIAGRAMA_CLINICA_1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="30226BF3-87DD-3DFA-B249-6AE905774520"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

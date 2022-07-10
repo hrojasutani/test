@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PRUEBA_PARAMETROS_FK" directorySegmentName="seg_0" id="8407079D-153F-4A50-D0BA-EB6374F61D85">
+<createdBy>HROJAS</createdBy>
+<createdTime>2022-07-09 23:57:58 UTC</createdTime>
+<generatorID>92A934E2-C052-EF4A-E248-C3E3D43D19C5</generatorID>
+<ownerDesignName>DIAGRAMA_CLINICA_1</ownerDesignName>
+<engineerTo>
+<item key="2B5CB4B7-9E2D-6556-D7B0-CCB783D65C90" value="true"/>
+</engineerTo>
+<sourcePk>FFBDFF3E-D16E-BC7E-B1C3-0FDAC97F4B01</sourcePk>
+<targetPk>4B1EF1E8-9D34-77CD-971B-734EA8C53533</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>164475BB-8C53-951A-2264-0B32FCF259C5</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>83D11775-ED48-1EF0-BC43-1A26CA96B941</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8CD9FB47-8D65-188C-D6BA-7618AB9A831A" containerWithKeyObject="1B5327D3-2B25-5FD8-D6C1-08403ED77CC8" localFKIndex="845D9C2B-FE55-46B6-093B-FDF044C41D7E" name="FAMILIA_ANALISIS_PERFIL_FK">
+<createdBy>HROJAS</createdBy>
+<createdTime>2022-07-10 00:27:42 UTC</createdTime>
+<generatorID>C66FA9DF-D8D2-B9E1-FB33-59D6EB08C574</generatorID>
+<ownerDesignName>DIAGRAMA_CLINICA_1</ownerDesignName>
+<referredTableLongName>PERFIL</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A3CB4F58-8865-0983-3073-C2C38DB68B3A</referredTableID>
+<keyObject>908F29F8-D576-181B-15BF-F8D0A2D16B44</keyObject>
+<referredKeyID>908F29F8-D576-181B-15BF-F8D0A2D16B44</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CoPerfil</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

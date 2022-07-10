@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="66F48A5E-FE79-D33E-11D3-0EAF3B60E790" containerWithKeyObject="F5E766A7-A641-A913-314B-A5F37F5C0512" localFKIndex="A1390BB0-66DC-FA77-80F4-4EF80C8B5B37" name="FAMILIA_ANALISISv2_ANALISIS_FK">
+<createdBy>HROJAS</createdBy>
+<createdTime>2022-07-10 00:27:42 UTC</createdTime>
+<generatorID>DC9D9896-68C5-25CB-955F-E65B55A153FB</generatorID>
+<ownerDesignName>DIAGRAMA_CLINICA_1</ownerDesignName>
+<referredTableLongName>ANALISIS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2798C7E9-025D-9EA2-7E3F-858AA7F542E4</referredTableID>
+<keyObject>DE1958AA-83BE-2B22-C9EF-F79207B1CB6F</keyObject>
+<referredKeyID>DE1958AA-83BE-2B22-C9EF-F79207B1CB6F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CoMedioAnalisis</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

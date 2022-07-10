@@ -1,8 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="230E9A89-7578-4DB1-1588-7D350EF7D0CC" name="DOCTOR">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="230E9A89-7578-4DB1-1588-7D350EF7D0CC" name="DOCTORv2">
 <createdBy>HROJAS</createdBy>
 <createdTime>2022-07-08 00:07:05 UTC</createdTime>
-<ownerDesignName>DIAGRAMA_CLINICA</ownerDesignName>
+<ownerDesignName>DIAGRAMA_CLINICA_1</ownerDesignName>
 <ordsAlias>table_2</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
@@ -11,7 +11,7 @@
 <Column name="CoDoctor" id="38AF9266-E662-762E-BB9C-64F21C2C36A3">
 <createdBy>HROJAS</createdBy>
 <createdTime>2022-07-08 00:20:48 UTC</createdTime>
-<ownerDesignName>DIAGRAMA_CLINICA</ownerDesignName>
+<ownerDesignName>DIAGRAMA_CLINICA_1</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -21,7 +21,7 @@
 <Column name="NoDoctor" id="D697D005-3882-6976-E2BB-515907D6D1E8">
 <createdBy>HROJAS</createdBy>
 <createdTime>2022-07-08 00:20:48 UTC</createdTime>
-<ownerDesignName>DIAGRAMA_CLINICA</ownerDesignName>
+<ownerDesignName>DIAGRAMA_CLINICA_1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -33,7 +33,7 @@
 <Column name="TxCorreoDoc" id="0C30BAC9-4D67-B8E1-2415-312AEB9F1039">
 <createdBy>HROJAS</createdBy>
 <createdTime>2022-07-08 00:20:48 UTC</createdTime>
-<ownerDesignName>DIAGRAMA_CLINICA</ownerDesignName>
+<ownerDesignName>DIAGRAMA_CLINICA_1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -44,10 +44,10 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="DCAF1F71-1F7D-9037-4715-7D304C3AC017" name="DOCTOR_PK">
+<ind_PK_UK id="DCAF1F71-1F7D-9037-4715-7D304C3AC017" name="DOCTOR_PKv2">
 <createdBy>HROJAS</createdBy>
 <createdTime>2022-07-08 00:31:30 UTC</createdTime>
-<ownerDesignName>DIAGRAMA_CLINICA</ownerDesignName>
+<ownerDesignName>DIAGRAMA_CLINICA_1</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
